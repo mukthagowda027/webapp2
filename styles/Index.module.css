@@ -1,0 +1,77 @@
+/* styles/Index.module.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+
+
+/* styles/Index.module.css */
+
+.label {
+  font-size: 20px; /* Increased font size for the label */
+}
+
+.input {
+  padding: 16px; /* Increased padding for better spacing */
+  margin-bottom: 20px;
+  width: calc(100% - 32px); /* Adjusted width to accommodate padding */
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Ensures that padding is included in the width calculation */
+}
+
+  
+  .input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .results p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
